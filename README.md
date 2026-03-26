@@ -1,41 +1,21 @@
-# task-api
+# Hi, I'm Ezgi
 
-A minimal Spring Boot REST API built to demonstrate clean layering, validation, exception handling, and testable backend design.
+I'm a backend-leaning software engineer focused on building practical, reliable systems for real operational workflows.
 
-This project is intentionally small. The goal is not to build a large CRUD showcase, but to show how a backend API can evolve in a disciplined way: behavior first, infrastructure later.
+My current work mostly involves backend development, database-heavy features, process logic, and internal tools. I'm especially interested in API design, backend architecture, and systems that stay clear and maintainable as they grow.
 
-## Why this project exists
+## Tech stack
 
-Many small backend projects become messy very quickly because they jump straight into persistence and framework-heavy code.
+Java, Spring Boot, Node.js, PostgreSQL, JavaScript, SQL
 
-This project takes a more deliberate path. It starts with a small in-memory implementation so the API contract, validation rules, error flows, and service boundaries can be made clear first. Persistence can come later, once the behavior is stable and properly tested.
+## Current focus
 
-## Current state
+- backend engineering
+- API design
+- system design fundamentals
+- building public projects that reflect clear engineering decisions
 
-Implemented so far:
+## Featured project
 
-- `GET /health`
-- `GET /tasks`
-- `POST /tasks`
-- `GET /tasks/{id}`
-- validation for task creation
-- global exception handling
-- in-memory service layer
-- initial MockMvc-based testing
-
-Planned next:
-
-- expose `PATCH /tasks/{id}/done`
-- expand endpoint test coverage
-- introduce PostgreSQL persistence
-- add Docker Compose for local development
-
-## Package structure
-
-```text
-com.example.taskapi
-├─ controller
-├─ service
-├─ model
-├─ exception
-└─ TaskApiApplication
+### task-api
+A minimal Spring Boot REST API built as a small but disciplined backend project.
